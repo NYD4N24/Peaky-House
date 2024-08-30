@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    text-align: center;
+    color:antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*TÍTULO*/
+
+h1{
+    font-size: 40pt;
+    color: white;
+}
+
+
+/*Frase de Marca*/
+
+h2{
+    font-size:20px;
+    color:white;
+    transition: 0.6s;
+    padding: none;
+    margin:none;
+}
+
+/*INDEX*/
+
+img{
+    border:1px solid white;
+}
+
+figcaption{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+.Temporadas{
+   width: 100%;
+   display:flex;
+   flex-direction: column;
+}
+
+.Temporada{
+    
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+/*SEASON*/
+
+.capa-season{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.text-season{
+    color: white;
+    margin-left: 1rem;
+    text-align: left;
+    font-size: 30px;
+}
+
+.description{
+    text-align: left;
+    font-size: 22px;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+/*FOOTER*/
+
+ footer{
+    margin-top: 7%;
+    padding: 1rem;
+    color:aliceblue;
+ }
+
+ /*EXTRAS*/
+a{    text-decoration:none;
+}
+
+hr{
+    color:aliceblue;
+    margin: none;
+}
+
+/* BOTÃO */
+
+@font-face {
+    font-family: 'FreshMan';
+    src: url(fonts/Freshman.ttf);
+}
+button{
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-family: FreshMan;
+    background-color: green;
+    padding: 1%;
+    border-color: rgba(255, 255, 255, 0.582);
+    border-radius: 4px;
+    
+
+}
+
+ /*HOVERS*/
+
+ h2:hover{
+    color:rgb(233, 233, 233);
+    font-size:25px;
+    transition: 0.6s;
+}
